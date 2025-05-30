@@ -1,0 +1,61 @@
+@startuml
+!define C4Container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Container Diagram - E-commerce Platform
+
+LAYOUT_WITH_LEGEND()
+
+Person(customer, "Customer", "A customer who wants to shop online")
+Person(admin, "Administrator", "System administrator")
+
+System_Boundary(ecommerce_boundary, "E-commerce Platform") {
+    Container(api_gateway, "API Gateway", "Spring Cloud Gateway", "Routes requests to appropriate microservices, handles authentication and rate limiting")
+    
+    Container(user_service, "User Service", "Spring Boot", "Manages user registration, authentication, and profile management")
+    
+    Container(inventory_service, "Inventory Service", "Spring Boot", "Manages product catalog, inventory levels, and product information")
+    
+    Container(cart_service, "Cart Service", "Spring Boot", "Manages shopping cart operations - add, remove, update items")
+    
+    Container(order_service, "Order Service", "Spring Boot", "Processes orders, manages order history and status")
+    
+    Container(discovery_service, "Discovery Service", "Netflix Eureka", "Service registry for microservice discovery and registration")
+    
+    ContainerDb(user_db, "User Database", "MySQL", "Stores user accounts, profiles, and authentication data")
+    
+    ContainerDb(inventory_db, "Inventory Database", "MySQL", "Stores product information, categories, and stock levels")
+    
+    ContainerDb(cart_db, "Cart Database", "Redis", "Stores temporary shopping cart data for fast access")
+    
+    ContainerDb(order_db, "Order Database", "MySQL", "Stores order history, transactions, and fulfillment data")
+}
+
+System_Ext(payment_gateway, "Payment Gateway", "External payment processing")
+System_Ext(email_service, "Email Service", "External email notifications")
+
+Rel(customer, api_gateway, "Makes API calls", "HTTPS/REST")
+Rel(admin, api_gateway, "Administrative operations", "HTTPS/REST")
+
+Rel(api_gateway, user_service, "User operations", "HTTP/REST")
+Rel(api_gateway, inventory_service, "Product operations", "HTTP/REST")
+Rel(api_gateway, cart_service, "Cart operations", "HTTP/REST")
+Rel(api_gateway, order_service, "Order operations", "HTTP/REST")
+
+Rel(user_service, discovery_service, "Service registration", "HTTP")
+Rel(inventory_service, discovery_service, "Service registration", "HTTP")
+Rel(cart_service, discovery_service, "Service registration", "HTTP")
+Rel(order_service, discovery_service, "Service registration", "HTTP")
+
+Rel(user_service, user_db, "Read/Write user data", "JDBC")
+Rel(inventory_service, inventory_db, "Read/Write product data", "JDBC")
+Rel(cart_service, cart_db, "Read/Write cart data", "Redis Protocol")
+Rel(order_service, order_db, "Read/Write order data", "JDBC")
+
+Rel(order_service, payment_gateway, "Process payments", "HTTPS/REST")
+Rel(order_service, email_service, "Send notifications", "SMTP")
+Rel(cart_service, inventory_service, "Check stock availability", "HTTP/REST")
+Rel(order_service, inventory_service, "Update stock levels", "HTTP/REST")
+Rel(order_service, user_service, "Validate user", "HTTP/REST")
+
+@enduml

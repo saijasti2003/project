@@ -1,0 +1,1204 @@
+{
+  "repository": {
+    "url": "https://github.com/visalsrimanga/Shopping-Cart-Web-App",
+    "owner": "visalsrimanga",
+    "name": "Shopping-Cart-Web-App",
+    "source": "github",
+    "local_path": "cache\\github_visalsrimanga_Shopping-Cart-Web-App"
+  },
+  "analysis": {
+    "timestamp": "",
+    "languages": {
+      "XML": {
+        "file_count": 5,
+        "total_lines": 389,
+        "percentage": 13.513513513513514
+      },
+      "Java": {
+        "file_count": 32,
+        "total_lines": 652,
+        "percentage": 86.48648648648648
+      }
+    },
+    "total_files": 109,
+    "analyzed_files": 32
+  },
+  "architecture": {
+    "metadata": {
+      "project_name": "Shopping-Cart-Web-App",
+      "analysis_timestamp": "C:\\Users\\srisairam.jasti\\OneDrive - Infosys Limited\\Documents\\Makethon1-new - Copy\\Makethon1",
+      "total_components": 15,
+      "total_relationships": 61,
+      "llm_enhanced": true
+    },
+    "components": {
+      "Shopping-Cart-Web-App": {
+        "name": "Shopping-Cart-Web-App",
+        "type": "software_system",
+        "description": "Application built with Spring",
+        "technology": "spring",
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\impl\\CartServiceImpl.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\impl\\ItemServiceImpl.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\test\\java\\lk\\ilabs\\inventory\\InventoryServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\InventoryServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\CartItemDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\dto\\ItemDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\service\\AuthService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\dto\\UserDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\repository\\CartItemRepository.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\repository\\ItemRepository.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\entity\\CartItem.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\test\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\entity\\User.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\CartServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\UserService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\advice\\GlobalExceptionHandler.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\repository\\UserRepository.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\api\\CartController.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\CartService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\ItemDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\test\\java\\lk\\ilabs\\user\\UserServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\dto\\UserDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\entity\\Item.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\api\\UserController.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\test\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\UserServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\api\\ItemController.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\main\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\test\\java\\lk\\ilabs\\assignment\\CartServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\ItemService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\impl\\UserServiceImpl.java"
+        ],
+        "code_elements_count": 0,
+        "metadata": {
+          "project_type": "application",
+          "has_api": true,
+          "has_ui": true
+        }
+      },
+      "Authentication Component": {
+        "name": "Authentication Component",
+        "type": "component",
+        "description": "Handles authentication functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\service\\AuthService.java"
+        ],
+        "code_elements_count": 988,
+        "metadata": {
+          "functional_area": "authentication"
+        }
+      },
+      "User_Management Component": {
+        "name": "User_Management Component",
+        "type": "component",
+        "description": "Handles user management functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\entity\\User.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\UserService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\test\\java\\lk\\ilabs\\user\\UserServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\dto\\UserDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\api\\UserController.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\dto\\UserDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\UserServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\repository\\UserRepository.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\impl\\UserServiceImpl.java"
+        ],
+        "code_elements_count": 8892,
+        "metadata": {
+          "functional_area": "user_management"
+        }
+      },
+      "Data_Access Component": {
+        "name": "Data_Access Component",
+        "type": "component",
+        "description": "Handles data access functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\repository\\ItemRepository.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\repository\\CartItemRepository.java"
+        ],
+        "code_elements_count": 1976,
+        "metadata": {
+          "functional_area": "data_access"
+        }
+      },
+      "Api Component": {
+        "name": "Api Component",
+        "type": "component",
+        "description": "Handles api functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\test\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplication.java"
+        ],
+        "code_elements_count": 1976,
+        "metadata": {
+          "functional_area": "api"
+        }
+      },
+      "Business_Logic Component": {
+        "name": "Business_Logic Component",
+        "type": "component",
+        "description": "Handles business logic functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\dto\\ItemDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\ItemDTO.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\CartItemDTO.java"
+        ],
+        "code_elements_count": 2964,
+        "metadata": {
+          "functional_area": "business_logic"
+        }
+      },
+      "Models Component": {
+        "name": "Models Component",
+        "type": "component",
+        "description": "Handles models functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\entity\\CartItem.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\entity\\Item.java"
+        ],
+        "code_elements_count": 1976,
+        "metadata": {
+          "functional_area": "models"
+        }
+      },
+      "Controllers Component": {
+        "name": "Controllers Component",
+        "type": "component",
+        "description": "Handles controllers functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\api\\CartController.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\advice\\GlobalExceptionHandler.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\api\\ItemController.java"
+        ],
+        "code_elements_count": 2964,
+        "metadata": {
+          "functional_area": "controllers"
+        }
+      },
+      "Services Component": {
+        "name": "Services Component",
+        "type": "component",
+        "description": "Handles services functionality",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\main\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\impl\\CartServiceImpl.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\CartService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\CartServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\impl\\ItemServiceImpl.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\test\\java\\lk\\ilabs\\assignment\\CartServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\test\\java\\lk\\ilabs\\inventory\\InventoryServiceApplicationTests.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\InventoryServiceApplication.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\ItemService.java",
+          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\test\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplicationTests.java"
+        ],
+        "code_elements_count": 9880,
+        "metadata": {
+          "functional_area": "services"
+        }
+      },
+      "External Lk System": {
+        "name": "External Lk System",
+        "type": "software_system",
+        "description": "External External Lk System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "lk.ilabs.user.repository.UserRepository",
+            "lk.ilabs.user.entity.User",
+            "lk.ilabs.assignment.dto.CartItemDTO",
+            "lk.ilabs.assignment.apigateway.dto.UserDTO",
+            "lk.ilabs.assignment.repository.CartItemRepository",
+            "lk.ilabs.inventory.entity.Item",
+            "lk.ilabs.user.service.UserService",
+            "lk.ilabs.assignment.dto.ItemDTO",
+            "lk.ilabs.user.dto.UserDTO",
+            "lk.ilabs.assignment.service.CartService",
+            "lk.ilabs.inventory.dto.ItemDTO",
+            "lk.ilabs.inventory.service.ItemService",
+            "lk.ilabs.inventory.repository.ItemRepository",
+            "lk.ilabs.assignment.entity.CartItem"
+          ]
+        }
+      },
+      "External Org System": {
+        "name": "External Org System",
+        "type": "software_system",
+        "description": "External External Org System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "org.springframework.security.core.userdetails.ReactiveUserDetailsService",
+            "org.springframework.web.bind.annotation",
+            "org.springframework.web.server.ResponseStatusException",
+            "org.springframework.security.core.userdetails.UserDetails",
+            "org.springframework.security.crypto.password.PasswordEncoder",
+            "org.springframework.web.client.RestTemplate",
+            "org.springframework.cloud.client.loadbalancer.LoadBalanced",
+            "org.springframework.http.HttpStatusCode",
+            "org.junit.jupiter.api.Test",
+            "org.springframework.boot.SpringApplication",
+            "org.springframework.stereotype.Service",
+            "org.springframework.web.reactive.function.client.WebClient",
+            "org.springframework.web.bind.annotation.RestControllerAdvice",
+            "org.springframework.boot.test.context.SpringBootTest",
+            "org.springframework.security.config.web.server.ServerHttpSecurity",
+            "org.springframework.data.repository.CrudRepository",
+            "org.springframework.web.client.HttpClientErrorException",
+            "org.springframework.security.core.authority.SimpleGrantedAuthority",
+            "org.springframework.http.HttpStatus",
+            "org.springframework.security.core.userdetails.User",
+            "org.springframework.http.HttpMethod",
+            "org.springframework.context.annotation.Bean",
+            "org.springframework.security.web.server.SecurityWebFilterChain",
+            "org.apache.commons.codec.digest.DigestUtils",
+            "org.springframework.web.bind.annotation.ExceptionHandler",
+            "org.springframework.cloud.netflix.eureka.server.EnableEurekaServer",
+            "org.springframework.boot.autoconfigure.SpringBootApplication"
+          ]
+        }
+      },
+      "External Jakarta System": {
+        "name": "External Jakarta System",
+        "type": "software_system",
+        "description": "External External Jakarta System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "jakarta.persistence.GeneratedValue",
+            "jakarta.persistence.GenerationType",
+            "jakarta.persistence.Entity",
+            "jakarta.persistence",
+            "jakarta.persistence.Id"
+          ]
+        }
+      },
+      "External Lombok System": {
+        "name": "External Lombok System",
+        "type": "software_system",
+        "description": "External External Lombok System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "lombok.AllArgsConstructor",
+            "lombok.NoArgsConstructor",
+            "lombok.Data"
+          ]
+        }
+      },
+      "External Java System": {
+        "name": "External Java System",
+        "type": "software_system",
+        "description": "External External Java System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "java.util.Optional",
+            "java.util.UUID",
+            "java.util.Base64",
+            "java.io.Serializable",
+            "java.util.List",
+            "java.nio.charset.StandardCharsets"
+          ]
+        }
+      },
+      "External Reactor System": {
+        "name": "External Reactor System",
+        "type": "software_system",
+        "description": "External External Reactor System system",
+        "technology": null,
+        "responsibilities": [],
+        "interfaces": [],
+        "source_files": [],
+        "code_elements_count": 0,
+        "metadata": {
+          "external": true,
+          "imports": [
+            "reactor.core.publisher.Mono"
+          ]
+        }
+      }
+    },
+    "relationships": [
+      {
+        "source": "Api Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.boot.SpringApplication",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.boot.SpringApplication"
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Lombok System",
+        "type": "depends_on",
+        "description": "Imports lombok.AllArgsConstructor",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lombok.AllArgsConstructor"
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.io.Serializable",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.io.Serializable"
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.security.core.userdetails.ReactiveUserDetailsService",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.security.core.userdetails.ReactiveUserDetailsService"
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "User_Management Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.apigateway.dto.UserDTO",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.apigateway.dto.UserDTO"
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Reactor System",
+        "type": "depends_on",
+        "description": "Imports reactor.core.publisher.Mono",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "reactor.core.publisher.Mono"
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.List",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.List"
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.boot.SpringApplication",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.boot.SpringApplication"
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.web.client.HttpClientErrorException",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.web.client.HttpClientErrorException"
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Business_Logic Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.dto.CartItemDTO",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.dto.CartItemDTO"
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Services Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.service.CartService",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.service.CartService"
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.Base64",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.Base64"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Lombok System",
+        "type": "depends_on",
+        "description": "Imports lombok.AllArgsConstructor",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lombok.AllArgsConstructor"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.io.Serializable",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.io.Serializable"
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Lombok System",
+        "type": "depends_on",
+        "description": "Imports lombok.NoArgsConstructor",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lombok.NoArgsConstructor"
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.UUID",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.UUID"
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Jakarta System",
+        "type": "depends_on",
+        "description": "Imports jakarta.persistence",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "jakarta.persistence"
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "Models Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.entity.CartItem",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.entity.CartItem"
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.data.repository.CrudRepository",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.data.repository.CrudRepository"
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.Optional",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.Optional"
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Business_Logic Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.dto.CartItemDTO",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.dto.CartItemDTO"
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Data_Access Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.repository.CartItemRepository",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.repository.CartItemRepository"
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.Optional",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.Optional"
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Models Component",
+        "type": "depends_on",
+        "description": "Imports lk.ilabs.assignment.entity.CartItem",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "lk.ilabs.assignment.entity.CartItem"
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Org System",
+        "type": "depends_on",
+        "description": "Imports org.springframework.boot.SpringApplication",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "org.springframework.boot.SpringApplication"
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Jakarta System",
+        "type": "depends_on",
+        "description": "Imports jakarta.persistence.Entity",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "jakarta.persistence.Entity"
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Lk System",
+        "type": "uses",
+        "description": "Uses External Lk System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "External Reactor System",
+        "type": "uses",
+        "description": "Uses External Reactor System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Lk System",
+        "type": "uses",
+        "description": "Uses External Lk System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Jakarta System",
+        "type": "uses",
+        "description": "Uses External Jakarta System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Lombok System",
+        "type": "uses",
+        "description": "Uses External Lombok System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "User_Management Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "External Lk System",
+        "type": "uses",
+        "description": "Uses External Lk System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Api Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Lombok System",
+        "type": "uses",
+        "description": "Uses External Lombok System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Jakarta System",
+        "type": "uses",
+        "description": "Uses External Jakarta System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Lombok System",
+        "type": "uses",
+        "description": "Uses External Lombok System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "External Lk System",
+        "type": "uses",
+        "description": "Uses External Lk System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "External Lk System",
+        "type": "uses",
+        "description": "Uses External Lk System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "External Org System",
+        "type": "uses",
+        "description": "Uses External Org System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "External Java System",
+        "type": "uses",
+        "description": "Uses External Java System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Authentication Component",
+        "target": "User_Management Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Data_Access Component",
+        "target": "Models Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "Models Component",
+        "type": "extends",
+        "description": "Extends/inherits from",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Business_Logic Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Models Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Models Component",
+        "type": "extends",
+        "description": "Extends/inherits from",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Controllers Component",
+        "target": "Services Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Data_Access Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Business_Logic Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Models Component",
+        "type": "calls",
+        "description": "Calls methods",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Services Component",
+        "target": "Models Component",
+        "type": "extends",
+        "description": "Extends/inherits from",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      }
+    ],
+    "insights": {
+      "complexity_analysis": {
+        "component_complexity": {
+          "Shopping-Cart-Web-App": 0.0,
+          "Authentication Component": 103.3,
+          "User_Management Component": 894.7,
+          "Data_Access Component": 202.1,
+          "Api Component": 198.6,
+          "Business_Logic Component": 300.9,
+          "Models Component": 204.6,
+          "Controllers Component": 301.9,
+          "Services Component": 995.0,
+          "External Lk System": 3.5,
+          "External Org System": 7.0,
+          "External Jakarta System": 3.0,
+          "External Lombok System": 4.0,
+          "External Java System": 8.0,
+          "External Reactor System": 2.0
+        },
+        "average_complexity": 215.24,
+        "most_complex_component": [
+          "Services Component",
+          995.0
+        ]
+      },
+      "architectural_health": {
+        "modularity_score": 2.375,
+        "coupling_score": 6.0,
+        "cohesion_score": 10.0,
+        "overall_health": "Good"
+      },
+      "recommendations": [
+        "Consider breaking down 'External Org System' - it has 12 connections",
+        "Consider breaking down 'User_Management Component' - it has 11 connections",
+        "Consider breaking down 'External Lombok System' - it has 6 connections",
+        "Consider breaking down 'External Java System' - it has 14 connections",
+        "Consider breaking down 'Authentication Component' - it has 9 connections",
+        "Consider breaking down 'Services Component' - it has 14 connections",
+        "Consider breaking down 'Controllers Component' - it has 11 connections",
+        "Consider breaking down 'Business_Logic Component' - it has 9 connections",
+        "Consider breaking down 'Models Component' - it has 14 connections",
+        "Consider breaking down 'Data_Access Component' - it has 9 connections",
+        "High number of external dependencies - consider consolidating or creating facade patterns"
+      ],
+      "metrics": {
+        "component_count_by_type": {
+          "software_system": 7,
+          "component": 8
+        },
+        "relationship_count_by_type": {
+          "depends_on": 26,
+          "uses": 24,
+          "calls": 8,
+          "extends": 3
+        },
+        "lines_of_code_by_component": {
+          "Authentication Component": 19760,
+          "User_Management Component": 138320,
+          "Data_Access Component": 0,
+          "Api Component": 39520,
+          "Business_Logic Component": 59280,
+          "Models Component": 39520,
+          "Controllers Component": 59280,
+          "Services Component": 158080
+        },
+        "files_by_component": {
+          "Authentication Component": 1,
+          "User_Management Component": 9,
+          "Data_Access Component": 2,
+          "Api Component": 2,
+          "Business_Logic Component": 3,
+          "Models Component": 2,
+          "Controllers Component": 3,
+          "Services Component": 10
+        },
+        "dependency_depth": 4
+      },
+      "llm_analysis": {
+        "system_health": {
+          "overall_score": 0.0,
+          "health_level": "poor",
+          "analysis_confidence": 0.0,
+          "high_coupling_components": 0,
+          "high_complexity_components": 0,
+          "responsibility_conflicts": 0,
+          "total_components": 0
+        },
+        "architectural_patterns": [],
+        "cross_cutting_concerns": {},
+        "responsibility_conflicts": {
+          "computed_overlaps": {
+            "business_capability_overlaps": {},
+            "technical_capability_overlaps": {},
+            "data_ownership_conflicts": {}
+          }
+        },
+        "recommendations": [],
+        "components_analysis": {}
+      }
+    },
+    "c4_levels": {
+      "context": [
+        "Shopping-Cart-Web-App",
+        "External Lk System",
+        "External Org System",
+        "External Jakarta System",
+        "External Lombok System",
+        "External Java System",
+        "External Reactor System"
+      ],
+      "containers": [],
+      "components": [
+        "Authentication Component",
+        "User_Management Component",
+        "Data_Access Component",
+        "Api Component",
+        "Business_Logic Component",
+        "Models Component",
+        "Controllers Component",
+        "Services Component"
+      ],
+      "code": []
+    },
+    "architecture_patterns": {
+      "layered_architecture": true,
+      "microservices": false,
+      "mvc_pattern": true,
+      "repository_pattern": true,
+      "api_gateway": true,
+      "event_driven": false
+    },
+    "llm_analysis": {
+      "system_health": {
+        "overall_score": 0.0,
+        "health_level": "poor",
+        "analysis_confidence": 0.0,
+        "high_coupling_components": 0,
+        "high_complexity_components": 0,
+        "responsibility_conflicts": 0,
+        "total_components": 0
+      },
+      "architectural_patterns": [],
+      "cross_cutting_concerns": {},
+      "responsibility_conflicts": {
+        "computed_overlaps": {
+          "business_capability_overlaps": {},
+          "technical_capability_overlaps": {},
+          "data_ownership_conflicts": {}
+        }
+      },
+      "recommendations": [],
+      "components_analysis": {}
+    }
+  },
+  "semantic": {
+    "intent_patterns": {
+      "authentication": [
+        

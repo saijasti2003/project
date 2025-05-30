@@ -1,0 +1,25 @@
+@startuml
+!define C4Context
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title System Context Diagram - E-commerce Platform
+
+LAYOUT_WITH_LEGEND()
+
+Person(customer, "Customer", "A customer who wants to shop online")
+Person(admin, "Administrator", "System administrator who manages inventory and users")
+
+System(ecommerce_system, "E-commerce Platform", "Provides online shopping capabilities including user management, inventory, and cart functionality")
+
+System_Ext(payment_gateway, "Payment Gateway", "External payment processing system")
+System_Ext(email_service, "Email Service", "External email notification service") 
+System_Ext(analytics_service, "Analytics Service", "External analytics and reporting service")
+
+Rel(customer, ecommerce_system, "Browse products, manage cart, place orders", "HTTPS")
+Rel(admin, ecommerce_system, "Manage inventory, view reports, manage users", "HTTPS")
+
+Rel(ecommerce_system, payment_gateway, "Process payments", "HTTPS/REST API")
+Rel(ecommerce_system, email_service, "Send notifications", "SMTP/REST API")
+Rel(ecommerce_system, analytics_service, "Send usage data", "HTTPS/REST API")
+
+@enduml
