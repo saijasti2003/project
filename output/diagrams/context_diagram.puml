@@ -6,7 +6,7 @@ title System Context Diagram
 
 LAYOUT_WITH_LEGEND()
 
-System(Shopping_Cart_Web_App, "Shopping-Cart-Web-App", "E-commerce microservices platform for online shopping")
+System(employer_worker_registration_system, "employer-worker-registration-system", "E-commerce microservices platform for online shopping")
 
 Person(customer, "Customer", "A customer who wants to shop online and manage their cart")
 Person(admin, "Administrator", "System administrator who manages inventory and users")
@@ -15,11 +15,11 @@ System_Ext(payment_system, "Payment Gateway", "External payment processing servi
 System_Ext(email_service, "Email Service", "External email notification service")
 System_Ext(analytics_service, "Analytics Service", "External analytics and monitoring service")
 
-Rel(customer, Shopping_Cart_Web_App, "Browse products, manage cart, place orders", "HTTPS/REST")
-Rel(admin, Shopping_Cart_Web_App, "Manage inventory, view reports, manage users", "HTTPS/REST")
+Rel(customer, employer_worker_registration_system, "Browse products, manage cart, place orders", "HTTPS/REST")
+Rel(admin, employer_worker_registration_system, "Manage inventory, view reports, manage users", "HTTPS/REST")
 
-Rel(Shopping_Cart_Web_App, payment_system, "Process payments", "HTTPS/REST API")
-Rel(Shopping_Cart_Web_App, email_service, "Send order confirmations and notifications", "SMTP/REST API")
-Rel(Shopping_Cart_Web_App, analytics_service, "Send usage data and metrics", "HTTPS/REST API")
+Rel(employer_worker_registration_system, payment_system, "Process payments", "HTTPS/REST API")
+Rel(employer_worker_registration_system, email_service, "Send order confirmations and notifications", "SMTP/REST API")
+Rel(employer_worker_registration_system, analytics_service, "Send usage data and metrics", "HTTPS/REST API")
 
 @enduml

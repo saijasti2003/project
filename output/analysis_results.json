@@ -1,82 +1,90 @@
 {
   "repository": {
-    "url": "https://github.com/visalsrimanga/Shopping-Cart-Web-App",
-    "owner": "visalsrimanga",
-    "name": "Shopping-Cart-Web-App",
+    "url": "https://github.com/cbozan/employer-worker-registration-system",
+    "owner": "cbozan",
+    "name": "employer-worker-registration-system",
     "source": "github",
-    "local_path": "cache\\github_visalsrimanga_Shopping-Cart-Web-App"
+    "local_path": "cache\\github_cbozan_employer-worker-registration-system"
   },
   "analysis": {
     "timestamp": "",
     "languages": {
-      "XML": {
-        "file_count": 5,
-        "total_lines": 389,
-        "percentage": 13.513513513513514
-      },
       "Java": {
-        "file_count": 32,
-        "total_lines": 652,
-        "percentage": 86.48648648648648
+        "file_count": 45,
+        "total_lines": 10837,
+        "percentage": 100.0
       }
     },
-    "total_files": 109,
-    "analyzed_files": 32
+    "total_files": 72,
+    "analyzed_files": 45
   },
   "architecture": {
     "metadata": {
-      "project_name": "Shopping-Cart-Web-App",
+      "project_name": "employer-worker-registration-system",
       "analysis_timestamp": "C:\\Users\\srisairam.jasti\\OneDrive - Infosys Limited\\Documents\\Makethon1-new - Copy\\Makethon1",
-      "total_components": 15,
-      "total_relationships": 61,
+      "total_components": 8,
+      "total_relationships": 29,
       "llm_enhanced": true
     },
     "components": {
-      "Shopping-Cart-Web-App": {
-        "name": "Shopping-Cart-Web-App",
+      "employer-worker-registration-system": {
+        "name": "employer-worker-registration-system",
         "type": "software_system",
-        "description": "Application built with Spring",
-        "technology": "spring",
+        "description": "Desktop Application",
+        "technology": null,
         "responsibilities": [],
         "interfaces": [],
         "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\impl\\CartServiceImpl.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\impl\\ItemServiceImpl.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\test\\java\\lk\\ilabs\\inventory\\InventoryServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\InventoryServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\CartItemDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\dto\\ItemDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\service\\AuthService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\dto\\UserDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\repository\\CartItemRepository.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\repository\\ItemRepository.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\entity\\CartItem.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\test\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\entity\\User.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\CartServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\UserService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\advice\\GlobalExceptionHandler.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\repository\\UserRepository.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\api\\CartController.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\CartService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\ItemDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\test\\java\\lk\\ilabs\\user\\UserServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\dto\\UserDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\entity\\Item.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\api\\UserController.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\test\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\UserServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\api\\ItemController.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\main\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\test\\java\\lk\\ilabs\\assignment\\CartServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\ItemService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\impl\\UserServiceImpl.java"
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Paytype.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\RecordTextField.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Payment.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\WorkerPaymentPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\JobDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\util\\DBConst.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\SearchBox.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\JobPaymentPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Invoice.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\PricePanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Price.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkerDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\TextArea.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\EmployerDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Work.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\Main.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\InvoiceDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PaymentDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\MainFrame.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\EmployerDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\JobPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Workgroup.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\WorkerPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PaytypeDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PriceDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkgroupDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\DB.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\EmployerCard.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Worktype.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\WorkerCard.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Employer.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\JobDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\exception\\EntityException.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Worker.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\EmployerPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Job.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\WorkerDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\helper\\Control.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\Login.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\WorkPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\helper\\Observer.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorktypeDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\JobCard.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\LoginDAO.java"
         ],
         "code_elements_count": 0,
         "metadata": {
-          "project_type": "application",
-          "has_api": true,
+          "project_type": "desktop_application",
+          "has_api": false,
           "has_ui": true
         }
       },
@@ -88,34 +96,12 @@
         "responsibilities": [],
         "interfaces": [],
         "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\service\\AuthService.java"
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\Login.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\LoginDAO.java"
         ],
-        "code_elements_count": 988,
+        "code_elements_count": 1976,
         "metadata": {
           "functional_area": "authentication"
-        }
-      },
-      "User_Management Component": {
-        "name": "User_Management Component",
-        "type": "component",
-        "description": "Handles user management functionality",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\entity\\User.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\UserService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\test\\java\\lk\\ilabs\\user\\UserServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\dto\\UserDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\api\\UserController.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\dto\\UserDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\UserServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\repository\\UserRepository.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\user-service\\src\\main\\java\\lk\\ilabs\\user\\service\\impl\\UserServiceImpl.java"
-        ],
-        "code_elements_count": 8892,
-        "metadata": {
-          "functional_area": "user_management"
         }
       },
       "Data_Access Component": {
@@ -126,28 +112,22 @@
         "responsibilities": [],
         "interfaces": [],
         "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\repository\\ItemRepository.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\repository\\CartItemRepository.java"
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PriceDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkgroupDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkerDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\EmployerDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\DB.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorkDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\WorktypeDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\JobDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\util\\DBConst.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\InvoiceDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PaymentDAO.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\dao\\PaytypeDAO.java"
         ],
-        "code_elements_count": 1976,
+        "code_elements_count": 11856,
         "metadata": {
           "functional_area": "data_access"
-        }
-      },
-      "Api Component": {
-        "name": "Api Component",
-        "type": "component",
-        "description": "Handles api functionality",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\test\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\api-gateway\\src\\main\\java\\lk\\ilabs\\assignment\\apigateway\\ApiGatewayApplication.java"
-        ],
-        "code_elements_count": 1976,
-        "metadata": {
-          "functional_area": "api"
         }
       },
       "Business_Logic Component": {
@@ -158,11 +138,28 @@
         "responsibilities": [],
         "interfaces": [],
         "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\dto\\ItemDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\ItemDTO.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\dto\\CartItemDTO.java"
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\RecordTextField.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\WorkerPaymentPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\SearchBox.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\JobPaymentPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\PricePanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\component\\TextArea.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\Main.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\EmployerDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\main\\MainFrame.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\JobPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\WorkerPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\WorkerCard.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\EmployerCard.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\JobDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\record\\EmployerPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\WorkerDisplay.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\helper\\Control.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\add\\WorkPanel.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\helper\\Observer.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\view\\display\\JobCard.java"
         ],
-        "code_elements_count": 2964,
+        "code_elements_count": 19760,
         "metadata": {
           "functional_area": "business_logic"
         }
@@ -175,59 +172,27 @@
         "responsibilities": [],
         "interfaces": [],
         "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\entity\\CartItem.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\entity\\Item.java"
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Price.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Paytype.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Worktype.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Payment.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Employer.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Work.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Worker.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\exception\\EntityException.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Job.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Invoice.java",
+          "cache\\github_cbozan_employer-worker-registration-system\\src\\com\\cbozan\\entity\\Workgroup.java"
         ],
-        "code_elements_count": 1976,
+        "code_elements_count": 10868,
         "metadata": {
           "functional_area": "models"
         }
       },
-      "Controllers Component": {
-        "name": "Controllers Component",
-        "type": "component",
-        "description": "Handles controllers functionality",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\api\\CartController.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\advice\\GlobalExceptionHandler.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\api\\ItemController.java"
-        ],
-        "code_elements_count": 2964,
-        "metadata": {
-          "functional_area": "controllers"
-        }
-      },
-      "Services Component": {
-        "name": "Services Component",
-        "type": "component",
-        "description": "Handles services functionality",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\main\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\impl\\CartServiceImpl.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\service\\CartService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\main\\java\\lk\\ilabs\\assignment\\CartServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\impl\\ItemServiceImpl.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\cart-service\\src\\test\\java\\lk\\ilabs\\assignment\\CartServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\test\\java\\lk\\ilabs\\inventory\\InventoryServiceApplicationTests.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\InventoryServiceApplication.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\inventory-service\\src\\main\\java\\lk\\ilabs\\inventory\\service\\ItemService.java",
-          "cache\\github_visalsrimanga_Shopping-Cart-Web-App\\discovery-service\\src\\test\\java\\lk\\ilabs\\assignment\\discoveryservice\\DiscoveryServiceApplicationTests.java"
-        ],
-        "code_elements_count": 9880,
-        "metadata": {
-          "functional_area": "services"
-        }
-      },
-      "External Lk System": {
-        "name": "External Lk System",
+      "External Javax System": {
+        "name": "External Javax System",
         "type": "software_system",
-        "description": "External External Lk System system",
+        "description": "External External Javax System system",
         "technology": null,
         "responsibilities": [],
         "interfaces": [],
@@ -236,27 +201,45 @@
         "metadata": {
           "external": true,
           "imports": [
-            "lk.ilabs.user.repository.UserRepository",
-            "lk.ilabs.user.entity.User",
-            "lk.ilabs.assignment.dto.CartItemDTO",
-            "lk.ilabs.assignment.apigateway.dto.UserDTO",
-            "lk.ilabs.assignment.repository.CartItemRepository",
-            "lk.ilabs.inventory.entity.Item",
-            "lk.ilabs.user.service.UserService",
-            "lk.ilabs.assignment.dto.ItemDTO",
-            "lk.ilabs.user.dto.UserDTO",
-            "lk.ilabs.assignment.service.CartService",
-            "lk.ilabs.inventory.dto.ItemDTO",
-            "lk.ilabs.inventory.service.ItemService",
-            "lk.ilabs.inventory.repository.ItemRepository",
-            "lk.ilabs.assignment.entity.CartItem"
+            "javax.swing.JOptionPane",
+            "javax.swing.text.BadLocationException",
+            "javax.swing.JFrame",
+            "javax.swing.ImageIcon",
+            "javax.swing.event.CaretListener",
+            "javax.swing.JPasswordField",
+            "javax.swing.JTextField",
+            "javax.swing.JViewport",
+            "javax.swing.JTable",
+            "javax.swing.table.DefaultTableModel",
+            "javax.swing.JMenu",
+            "javax.swing.SwingConstants",
+            "javax.swing.text.AbstractDocument",
+            "javax.swing.JButton",
+            "javax.swing.JScrollPane",
+            "javax.swing.table.DefaultTableCellRenderer",
+            "javax.swing.JCheckBox",
+            "javax.swing.DefaultComboBoxModel",
+            "javax.swing.JTextArea",
+            "javax.swing.border.LineBorder",
+            "javax.swing.event.CaretEvent",
+            "javax.swing.JMenuItem",
+            "javax.swing.JLabel",
+            "javax.swing.text.JTextComponent",
+            "javax.swing.JPanel",
+            "javax.swing.text.DocumentFilter",
+            "javax.swing.DefaultListCellRenderer",
+            "javax.swing.JComboBox",
+            "javax.swing.JList",
+            "javax.swing.text.AttributeSet",
+            "javax.swing.JMenuBar",
+            "javax.swing.DefaultListModel"
           ]
         }
       },
-      "External Org System": {
-        "name": "External Org System",
+      "External Com System": {
+        "name": "External Com System",
         "type": "software_system",
-        "description": "External External Org System system",
+        "description": "External External Com System system",
         "technology": null,
         "responsibilities": [],
         "interfaces": [],
@@ -265,71 +248,55 @@
         "metadata": {
           "external": true,
           "imports": [
-            "org.springframework.security.core.userdetails.ReactiveUserDetailsService",
-            "org.springframework.web.bind.annotation",
-            "org.springframework.web.server.ResponseStatusException",
-            "org.springframework.security.core.userdetails.UserDetails",
-            "org.springframework.security.crypto.password.PasswordEncoder",
-            "org.springframework.web.client.RestTemplate",
-            "org.springframework.cloud.client.loadbalancer.LoadBalanced",
-            "org.springframework.http.HttpStatusCode",
-            "org.junit.jupiter.api.Test",
-            "org.springframework.boot.SpringApplication",
-            "org.springframework.stereotype.Service",
-            "org.springframework.web.reactive.function.client.WebClient",
-            "org.springframework.web.bind.annotation.RestControllerAdvice",
-            "org.springframework.boot.test.context.SpringBootTest",
-            "org.springframework.security.config.web.server.ServerHttpSecurity",
-            "org.springframework.data.repository.CrudRepository",
-            "org.springframework.web.client.HttpClientErrorException",
-            "org.springframework.security.core.authority.SimpleGrantedAuthority",
-            "org.springframework.http.HttpStatus",
-            "org.springframework.security.core.userdetails.User",
-            "org.springframework.http.HttpMethod",
-            "org.springframework.context.annotation.Bean",
-            "org.springframework.security.web.server.SecurityWebFilterChain",
-            "org.apache.commons.codec.digest.DigestUtils",
-            "org.springframework.web.bind.annotation.ExceptionHandler",
-            "org.springframework.cloud.netflix.eureka.server.EnableEurekaServer",
-            "org.springframework.boot.autoconfigure.SpringBootApplication"
-          ]
-        }
-      },
-      "External Jakarta System": {
-        "name": "External Jakarta System",
-        "type": "software_system",
-        "description": "External External Jakarta System system",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [],
-        "code_elements_count": 0,
-        "metadata": {
-          "external": true,
-          "imports": [
-            "jakarta.persistence.GeneratedValue",
-            "jakarta.persistence.GenerationType",
-            "jakarta.persistence.Entity",
-            "jakarta.persistence",
-            "jakarta.persistence.Id"
-          ]
-        }
-      },
-      "External Lombok System": {
-        "name": "External Lombok System",
-        "type": "software_system",
-        "description": "External External Lombok System system",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [],
-        "code_elements_count": 0,
-        "metadata": {
-          "external": true,
-          "imports": [
-            "lombok.AllArgsConstructor",
-            "lombok.NoArgsConstructor",
-            "lombok.Data"
+            "com.cbozan.dao.WorkDAO",
+            "com.cbozan.entity.Paytype.PaytypeBuilder",
+            "com.cbozan.entity.Worker",
+            "com.cbozan.dao.InvoiceDAO",
+            "com.cbozan.dao.PriceDAO",
+            "com.cbozan.view.display.JobDisplay",
+            "com.cbozan.view.record.PricePanel",
+            "com.cbozan.entity.Employer.EmployerBuilder",
+            "com.cbozan.dao.EmployerDAO",
+            "com.cbozan.view.add.WorkPanel",
+            "com.cbozan.view.record.JobPanel",
+            "com.cbozan.entity.Payment",
+            "com.cbozan.entity.Invoice",
+            "com.cbozan.dao.WorkgroupDAO",
+            "com.cbozan.entity.Worker.WorkerBuilder",
+            "com.cbozan.entity.Work",
+            "com.cbozan.entity.Paytype",
+            "com.cbozan.view.helper.Control",
+            "com.cbozan.entity.Workgroup",
+            "com.cbozan.view.helper.Observer",
+            "com.cbozan.entity.Employer",
+            "com.cbozan.exception.EntityException",
+            "com.cbozan.entity.Job.JobBuilder",
+            "com.cbozan.entity.Job",
+            "com.cbozan.view.display.WorkerDisplay",
+            "com.cbozan.dao.LoginDAO",
+            "com.cbozan.view.record.EmployerPanel",
+            "com.cbozan.entity.Worktype.WorktypeBuilder",
+            "com.cbozan.view.component.TextArea",
+            "com.cbozan.view.add.JobPaymentPanel",
+            "com.cbozan.entity.Workgroup.WorkgroupBuilder",
+            "com.cbozan.entity.Worktype",
+            "com.cbozan.entity.Invoice.InvoiceBuilder",
+            "com.cbozan.dao.PaytypeDAO",
+            "com.cbozan.entity.Price.PriceBuilder",
+            "com.cbozan.entity.Payment.PaymentBuilder",
+            "com.cbozan.dao.WorkerDAO",
+            "com.cbozan.view.add.WorkerPaymentPanel",
+            "com.cbozan.dao.WorktypeDAO",
+            "com.cbozan.entity.Work.WorkBuilder",
+            "com.cbozan.entity.Price",
+            "com.cbozan.util.DBConst",
+            "com.cbozan.view.component.SearchBox",
+            "com.cbozan.dao.DB",
+            "com.cbozan.dao.PaymentDAO",
+            "com.cbozan.view.component.RecordTextField",
+            "com.cbozan.view.record.WorkerPanel",
+            "com.cbozan.dao.JobDAO",
+            "com.cbozan.view.display.EmployerDisplay"
           ]
         }
       },
@@ -345,324 +312,189 @@
         "metadata": {
           "external": true,
           "imports": [
-            "java.util.Optional",
-            "java.util.UUID",
-            "java.util.Base64",
-            "java.io.Serializable",
+            "java.awt.Component",
+            "java.awt.Font",
+            "java.sql.PreparedStatement",
+            "java.awt.event.KeyEvent",
+            "java.util.Objects",
+            "java.awt.event.MouseAdapter",
+            "java.sql.Statement",
+            "java.awt.event.ActionEvent",
+            "java.text.NumberFormat",
+            "java.sql.Array",
+            "java.awt.event.FocusEvent",
+            "java.util.HashMap",
+            "java.sql.ResultSet",
+            "java.sql.Timestamp",
+            "java.awt.Toolkit",
+            "java.util.Arrays",
+            "java.util.regex.Pattern",
+            "java.awt.event.FocusListener",
+            "java.awt.EventQueue",
+            "java.text.SimpleDateFormat",
+            "java.util.StringTokenizer",
+            "java.util.Date",
+            "java.sql.DriverManager",
+            "java.util.ArrayList",
+            "java.awt.event.ActionListener",
+            "java.sql.Connection",
+            "java.awt.Color",
+            "java.awt.Dimension",
+            "java.awt.event.KeyAdapter",
+            "java.math.BigDecimal",
+            "java.util.Locale",
+            "java.util.Map.Entry",
+            "java.awt.event.ItemListener",
+            "java.sql.SQLException",
+            "java.awt.event.MouseEvent",
             "java.util.List",
-            "java.nio.charset.StandardCharsets"
-          ]
-        }
-      },
-      "External Reactor System": {
-        "name": "External Reactor System",
-        "type": "software_system",
-        "description": "External External Reactor System system",
-        "technology": null,
-        "responsibilities": [],
-        "interfaces": [],
-        "source_files": [],
-        "code_elements_count": 0,
-        "metadata": {
-          "external": true,
-          "imports": [
-            "reactor.core.publisher.Mono"
+            "java.awt.event.ItemEvent",
+            "java.util.Iterator",
+            "java.awt.Insets",
+            "java.text.ParseException",
+            "java.io.Serializable"
           ]
         }
       }
     },
     "relationships": [
       {
-        "source": "Api Component",
-        "target": "External Org System",
-        "type": "depends_on",
-        "description": "Imports org.springframework.boot.SpringApplication",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "org.springframework.boot.SpringApplication"
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Lombok System",
-        "type": "depends_on",
-        "description": "Imports lombok.AllArgsConstructor",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lombok.AllArgsConstructor"
-        }
-      },
-      {
-        "source": "User_Management Component",
+        "source": "Data_Access Component",
         "target": "External Java System",
         "type": "depends_on",
-        "description": "Imports java.io.Serializable",
+        "description": "Imports java.sql.DriverManager",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "java.io.Serializable"
+          "import": "java.sql.DriverManager"
         }
       },
       {
-        "source": "Authentication Component",
-        "target": "External Org System",
+        "source": "Data_Access Component",
+        "target": "External Javax System",
         "type": "depends_on",
-        "description": "Imports org.springframework.security.core.userdetails.ReactiveUserDetailsService",
+        "description": "Imports javax.swing.JOptionPane",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "org.springframework.security.core.userdetails.ReactiveUserDetailsService"
-        }
-      },
-      {
-        "source": "Authentication Component",
-        "target": "User_Management Component",
-        "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.apigateway.dto.UserDTO",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lk.ilabs.assignment.apigateway.dto.UserDTO"
-        }
-      },
-      {
-        "source": "Authentication Component",
-        "target": "External Reactor System",
-        "type": "depends_on",
-        "description": "Imports reactor.core.publisher.Mono",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "reactor.core.publisher.Mono"
-        }
-      },
-      {
-        "source": "Authentication Component",
-        "target": "External Java System",
-        "type": "depends_on",
-        "description": "Imports java.util.List",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "java.util.List"
-        }
-      },
-      {
-        "source": "Services Component",
-        "target": "External Org System",
-        "type": "depends_on",
-        "description": "Imports org.springframework.boot.SpringApplication",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "org.springframework.boot.SpringApplication"
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "External Org System",
-        "type": "depends_on",
-        "description": "Imports org.springframework.web.client.HttpClientErrorException",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "org.springframework.web.client.HttpClientErrorException"
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "Business_Logic Component",
-        "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.dto.CartItemDTO",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lk.ilabs.assignment.dto.CartItemDTO"
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "Services Component",
-        "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.service.CartService",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lk.ilabs.assignment.service.CartService"
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "External Java System",
-        "type": "depends_on",
-        "description": "Imports java.util.Base64",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "java.util.Base64"
-        }
-      },
-      {
-        "source": "Business_Logic Component",
-        "target": "External Lombok System",
-        "type": "depends_on",
-        "description": "Imports lombok.AllArgsConstructor",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lombok.AllArgsConstructor"
-        }
-      },
-      {
-        "source": "Business_Logic Component",
-        "target": "External Java System",
-        "type": "depends_on",
-        "description": "Imports java.io.Serializable",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "java.io.Serializable"
-        }
-      },
-      {
-        "source": "Models Component",
-        "target": "External Lombok System",
-        "type": "depends_on",
-        "description": "Imports lombok.NoArgsConstructor",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lombok.NoArgsConstructor"
-        }
-      },
-      {
-        "source": "Models Component",
-        "target": "External Java System",
-        "type": "depends_on",
-        "description": "Imports java.util.UUID",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "java.util.UUID"
-        }
-      },
-      {
-        "source": "Models Component",
-        "target": "External Jakarta System",
-        "type": "depends_on",
-        "description": "Imports jakarta.persistence",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "jakarta.persistence"
+          "import": "javax.swing.JOptionPane"
         }
       },
       {
         "source": "Data_Access Component",
         "target": "Models Component",
         "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.entity.CartItem",
+        "description": "Imports com.cbozan.entity.Employer",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "lk.ilabs.assignment.entity.CartItem"
+          "import": "com.cbozan.entity.Employer"
         }
       },
       {
         "source": "Data_Access Component",
-        "target": "External Org System",
+        "target": "External Com System",
         "type": "depends_on",
-        "description": "Imports org.springframework.data.repository.CrudRepository",
+        "description": "Imports com.cbozan.entity.Employer.EmployerBuilder",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "org.springframework.data.repository.CrudRepository"
+          "import": "com.cbozan.entity.Employer.EmployerBuilder"
         }
       },
       {
-        "source": "Data_Access Component",
+        "source": "Authentication Component",
         "target": "External Java System",
         "type": "depends_on",
-        "description": "Imports java.util.Optional",
+        "description": "Imports java.sql.ResultSet",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "java.util.Optional"
+          "import": "java.sql.ResultSet"
         }
       },
       {
-        "source": "Services Component",
-        "target": "Business_Logic Component",
-        "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.dto.CartItemDTO",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "lk.ilabs.assignment.dto.CartItemDTO"
-        }
-      },
-      {
-        "source": "Services Component",
+        "source": "Models Component",
         "target": "Data_Access Component",
         "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.repository.CartItemRepository",
+        "description": "Imports com.cbozan.util.DBConst",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "lk.ilabs.assignment.repository.CartItemRepository"
+          "import": "com.cbozan.util.DBConst"
         }
       },
       {
-        "source": "Services Component",
+        "source": "Models Component",
         "target": "External Java System",
         "type": "depends_on",
-        "description": "Imports java.util.Optional",
+        "description": "Imports java.sql.Timestamp",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "java.util.Optional"
+          "import": "java.sql.Timestamp"
         }
       },
       {
-        "source": "Services Component",
+        "source": "Authentication Component",
+        "target": "External Javax System",
+        "type": "depends_on",
+        "description": "Imports javax.swing.JOptionPane",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "javax.swing.JOptionPane"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Java System",
+        "type": "depends_on",
+        "description": "Imports java.util.Locale",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "java.util.Locale"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Javax System",
+        "type": "depends_on",
+        "description": "Imports javax.swing.JFrame",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "javax.swing.JFrame"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "Data_Access Component",
+        "type": "depends_on",
+        "description": "Imports com.cbozan.dao.InvoiceDAO",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "import": "com.cbozan.dao.InvoiceDAO"
+        }
+      },
+      {
+        "source": "Business_Logic Component",
         "target": "Models Component",
         "type": "depends_on",
-        "description": "Imports lk.ilabs.assignment.entity.CartItem",
+        "description": "Imports com.cbozan.entity.Invoice",
         "technology": null,
         "protocol": null,
         "metadata": {
-          "import": "lk.ilabs.assignment.entity.CartItem"
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Org System",
-        "type": "depends_on",
-        "description": "Imports org.springframework.boot.SpringApplication",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "org.springframework.boot.SpringApplication"
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Jakarta System",
-        "type": "depends_on",
-        "description": "Imports jakarta.persistence.Entity",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "import": "jakarta.persistence.Entity"
+          "import": "com.cbozan.entity.Invoice"
         }
       },
       {
         "source": "Authentication Component",
-        "target": "External Lk System",
+        "target": "External Javax System",
         "type": "uses",
-        "description": "Uses External Lk System services",
+        "description": "Uses External Javax System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -671,9 +503,9 @@
       },
       {
         "source": "Authentication Component",
-        "target": "External Org System",
+        "target": "External Com System",
         "type": "uses",
-        "description": "Uses External Org System services",
+        "description": "Uses External Com System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -692,65 +524,10 @@
         }
       },
       {
-        "source": "Authentication Component",
-        "target": "External Reactor System",
+        "source": "Data_Access Component",
+        "target": "External Javax System",
         "type": "uses",
-        "description": "Uses External Reactor System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Lk System",
-        "type": "uses",
-        "description": "Uses External Lk System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Org System",
-        "type": "uses",
-        "description": "Uses External Org System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Jakarta System",
-        "type": "uses",
-        "description": "Uses External Jakarta System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Lombok System",
-        "type": "uses",
-        "description": "Uses External Lombok System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "User_Management Component",
-        "target": "External Java System",
-        "type": "uses",
-        "description": "Uses External Java System services",
+        "description": "Uses External Javax System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -759,20 +536,9 @@
       },
       {
         "source": "Data_Access Component",
-        "target": "External Lk System",
+        "target": "External Com System",
         "type": "uses",
-        "description": "Uses External Lk System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Data_Access Component",
-        "target": "External Org System",
-        "type": "uses",
-        "description": "Uses External Org System services",
+        "description": "Uses External Com System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -784,17 +550,6 @@
         "target": "External Java System",
         "type": "uses",
         "description": "Uses External Java System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Api Component",
-        "target": "External Org System",
-        "type": "uses",
-        "description": "Uses External Org System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -803,9 +558,20 @@
       },
       {
         "source": "Business_Logic Component",
-        "target": "External Lombok System",
+        "target": "External Javax System",
         "type": "uses",
-        "description": "Uses External Lombok System services",
+        "description": "Uses External Javax System services",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "external": true
+        }
+      },
+      {
+        "source": "Business_Logic Component",
+        "target": "External Com System",
+        "type": "uses",
+        "description": "Uses External Com System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -825,20 +591,9 @@
       },
       {
         "source": "Models Component",
-        "target": "External Jakarta System",
+        "target": "External Com System",
         "type": "uses",
-        "description": "Uses External Jakarta System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Models Component",
-        "target": "External Lombok System",
-        "type": "uses",
-        "description": "Uses External Lombok System services",
+        "description": "Uses External Com System services",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -854,83 +609,6 @@
         "protocol": null,
         "metadata": {
           "external": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "External Lk System",
-        "type": "uses",
-        "description": "Uses External Lk System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "External Org System",
-        "type": "uses",
-        "description": "Uses External Org System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "External Java System",
-        "type": "uses",
-        "description": "Uses External Java System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Services Component",
-        "target": "External Lk System",
-        "type": "uses",
-        "description": "Uses External Lk System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Services Component",
-        "target": "External Org System",
-        "type": "uses",
-        "description": "Uses External Org System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Services Component",
-        "target": "External Java System",
-        "type": "uses",
-        "description": "Uses External Java System services",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "external": true
-        }
-      },
-      {
-        "source": "Authentication Component",
-        "target": "User_Management Component",
-        "type": "calls",
-        "description": "Calls methods",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
         }
       },
       {
@@ -945,7 +623,7 @@
         }
       },
       {
-        "source": "Business_Logic Component",
+        "source": "Data_Access Component",
         "target": "Models Component",
         "type": "extends",
         "description": "Extends/inherits from",
@@ -956,51 +634,7 @@
         }
       },
       {
-        "source": "Controllers Component",
-        "target": "Business_Logic Component",
-        "type": "calls",
-        "description": "Calls methods",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "Models Component",
-        "type": "calls",
-        "description": "Calls methods",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "Models Component",
-        "type": "extends",
-        "description": "Extends/inherits from",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
-        }
-      },
-      {
-        "source": "Controllers Component",
-        "target": "Services Component",
-        "type": "calls",
-        "description": "Calls methods",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
-        }
-      },
-      {
-        "source": "Services Component",
+        "source": "Business_Logic Component",
         "target": "Data_Access Component",
         "type": "calls",
         "description": "Calls methods",
@@ -1011,18 +645,7 @@
         }
       },
       {
-        "source": "Services Component",
-        "target": "Business_Logic Component",
-        "type": "calls",
-        "description": "Calls methods",
-        "technology": null,
-        "protocol": null,
-        "metadata": {
-          "code_relationship": true
-        }
-      },
-      {
-        "source": "Services Component",
+        "source": "Business_Logic Component",
         "target": "Models Component",
         "type": "calls",
         "description": "Calls methods",
@@ -1033,10 +656,21 @@
         }
       },
       {
-        "source": "Services Component",
+        "source": "Business_Logic Component",
         "target": "Models Component",
         "type": "extends",
         "description": "Extends/inherits from",
+        "technology": null,
+        "protocol": null,
+        "metadata": {
+          "code_relationship": true
+        }
+      },
+      {
+        "source": "Models Component",
+        "target": "Data_Access Component",
+        "type": "calls",
+        "description": "Calls methods",
         "technology": null,
         "protocol": null,
         "metadata": {
@@ -1047,79 +681,59 @@
     "insights": {
       "complexity_analysis": {
         "component_complexity": {
-          "Shopping-Cart-Web-App": 0.0,
-          "Authentication Component": 103.3,
-          "User_Management Component": 894.7,
-          "Data_Access Component": 202.1,
-          "Api Component": 198.6,
-          "Business_Logic Component": 300.9,
-          "Models Component": 204.6,
-          "Controllers Component": 301.9,
-          "Services Component": 995.0,
-          "External Lk System": 3.5,
-          "External Org System": 7.0,
-          "External Jakarta System": 3.0,
-          "External Lombok System": 4.0,
-          "External Java System": 8.0,
-          "External Reactor System": 2.0
+          "employer-worker-registration-system": 0.0,
+          "Authentication Component": 200.1,
+          "Data_Access Component": 1192.1,
+          "Business_Logic Component": 1981.0,
+          "Models Component": 1092.3,
+          "External Javax System": 4.0,
+          "External Com System": 3.5,
+          "External Java System": 5.0
         },
-        "average_complexity": 215.24,
+        "average_complexity": 559.75,
         "most_complex_component": [
-          "Services Component",
-          995.0
+          "Business_Logic Component",
+          1981.0
         ]
       },
       "architectural_health": {
-        "modularity_score": 2.375,
-        "coupling_score": 6.0,
+        "modularity_score": 2.75,
+        "coupling_score": 6.25,
         "cohesion_score": 10.0,
         "overall_health": "Good"
       },
       "recommendations": [
-        "Consider breaking down 'External Org System' - it has 12 connections",
-        "Consider breaking down 'User_Management Component' - it has 11 connections",
-        "Consider breaking down 'External Lombok System' - it has 6 connections",
-        "Consider breaking down 'External Java System' - it has 14 connections",
-        "Consider breaking down 'Authentication Component' - it has 9 connections",
-        "Consider breaking down 'Services Component' - it has 14 connections",
-        "Consider breaking down 'Controllers Component' - it has 11 connections",
-        "Consider breaking down 'Business_Logic Component' - it has 9 connections",
-        "Consider breaking down 'Models Component' - it has 14 connections",
-        "Consider breaking down 'Data_Access Component' - it has 9 connections",
-        "High number of external dependencies - consider consolidating or creating facade patterns"
+        "Consider breaking down 'Data_Access Component' - it has 13 connections",
+        "Consider breaking down 'External Java System' - it has 8 connections",
+        "Consider breaking down 'External Javax System' - it has 6 connections",
+        "Consider breaking down 'Models Component' - it has 11 connections",
+        "Consider breaking down 'Business_Logic Component' - it has 10 connections",
+        "Consider adding controllers, services layer(s) for better separation of concerns"
       ],
       "metrics": {
         "component_count_by_type": {
-          "software_system": 7,
-          "component": 8
+          "software_system": 4,
+          "component": 4
         },
         "relationship_count_by_type": {
-          "depends_on": 26,
-          "uses": 24,
-          "calls": 8,
-          "extends": 3
+          "depends_on": 12,
+          "uses": 11,
+          "calls": 4,
+          "extends": 2
         },
         "lines_of_code_by_component": {
-          "Authentication Component": 19760,
-          "User_Management Component": 138320,
-          "Data_Access Component": 0,
-          "Api Component": 39520,
-          "Business_Logic Component": 59280,
-          "Models Component": 39520,
-          "Controllers Component": 59280,
-          "Services Component": 158080
+          "Authentication Component": 39520,
+          "Data_Access Component": 237120,
+          "Business_Logic Component": 375440,
+          "Models Component": 217360
         },
         "files_by_component": {
-          "Authentication Component": 1,
-          "User_Management Component": 9,
-          "Data_Access Component": 2,
-          "Api Component": 2,
-          "Business_Logic Component": 3,
-          "Models Component": 2,
-          "Controllers Component": 3,
-          "Services Component": 10
+          "Authentication Component": 2,
+          "Data_Access Component": 12,
+          "Business_Logic Component": 20,
+          "Models Component": 11
         },
-        "dependency_depth": 4
+        "dependency_depth": 3
       },
       "llm_analysis": {
         "system_health": {
@@ -1146,33 +760,26 @@
     },
     "c4_levels": {
       "context": [
-        "Shopping-Cart-Web-App",
-        "External Lk System",
-        "External Org System",
-        "External Jakarta System",
-        "External Lombok System",
-        "External Java System",
-        "External Reactor System"
+        "employer-worker-registration-system",
+        "External Javax System",
+        "External Com System",
+        "External Java System"
       ],
       "containers": [],
       "components": [
         "Authentication Component",
-        "User_Management Component",
         "Data_Access Component",
-        "Api Component",
         "Business_Logic Component",
-        "Models Component",
-        "Controllers Component",
-        "Services Component"
+        "Models Component"
       ],
       "code": []
     },
     "architecture_patterns": {
-      "layered_architecture": true,
+      "layered_architecture": false,
       "microservices": false,
-      "mvc_pattern": true,
+      "mvc_pattern": false,
       "repository_pattern": true,
-      "api_gateway": true,
+      "api_gateway": false,
       "event_driven": false
     },
     "llm_analysis": {

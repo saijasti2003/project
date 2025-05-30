@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/visalsrimanga/Shopping-Cart-Web-App",
+  "formats": [
+    "plantuml",
+    "mermaid"
+  ],
+  "theme": "default",
+  "components": 15,
+  "relationships": 61,
+  "status": "generated",
+  "diagram_files": [
+    "output\\diagrams\\context_diagram.puml",
+    "output\\diagrams\\context_diagram.mmd"
+  ]
+}

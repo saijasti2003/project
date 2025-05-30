@@ -9,7 +9,7 @@ LAYOUT_WITH_LEGEND()
 Person(customer, "Customer", "Online shopper")
 Person(admin, "Administrator", "System administrator")
 
-System_Boundary(Shopping_Cart_Web_App_boundary, "Shopping-Cart-Web-App") {
+System_Boundary(employer_worker_registration_system_boundary, "employer-worker-registration-system") {
     Container(api_gateway, "API Gateway", "Spring Cloud Gateway", "Routes requests to microservices, handles authentication and rate limiting")
 
     Container(user_service, "User Service", "Spring Boot", "Manages user registration, authentication, and profile management")
